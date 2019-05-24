@@ -39,8 +39,10 @@
     "package.json"
   ],
   "dependencies": {
-    "firebase": "^5.5.4",
     "jsdom": ">3"
+  },
+  "peerDependencies": {
+    "firebase": "^5.5.4"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
